@@ -1,0 +1,65 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: 
+    url("https://wallpaperaccess.com/full/2725550.jpg");
+  background-size: cover;
+}
+
+.registerTitle{
+    font-size: 40px;
+    color: white;
+}
+
+.registerForm{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.registerForm > label{
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: rgba(252, 249, 249,0.1);
+    border: none;
+    color: white;
+}
+
+.registerInput:focus{
+    outline: none;
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(225, 35, 1);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(8, 145, 145);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 415px) {
+    .register{
+        background-image: url("https://cdna.artstation.com/p/assets/images/images/043/790/782/large/faissal-thomas-narotu.jpg?1638273526");
+    }
+}
